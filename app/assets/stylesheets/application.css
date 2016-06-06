@@ -38,7 +38,7 @@ main {
   border-left: 1px solid #7679AF;
   border-right: 1px solid #7679AF;
   box-shadow: 0px 22px 18px rgb(59, 36, 97);
-  background: #88CA6F;
+  background: linear-gradient(to top,  #00D8FF,  #88CA6F);
 }
 footer {
   bottom: 0;
@@ -53,7 +53,7 @@ header, footer {
   position: absolute;
   left: 0;
   text-align: center;
-  background: #6FCAA6;
+  background: linear-gradient(to right,  #00D8FF,  #88CA6F);
 
 }
 

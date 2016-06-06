@@ -50,3 +50,9 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 # file uploader
 gem 'carrierwave'
 gem 'mini_magick'
+
+# auth
+gem 'devise'
+
+# admin panel
+gem 'activeadmin', github: 'activeadmin'
