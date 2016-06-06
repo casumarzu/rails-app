@@ -53,3 +53,6 @@ gem 'mini_magick'
 
 # auth
 gem 'devise'
+
+# admin panel
+gem 'activeadmin', github: 'activeadmin'
