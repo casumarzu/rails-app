@@ -10,14 +10,14 @@ ActiveAdmin.register_page "Dashboard" do
       end
     end
 
-    table_for Photo.order('created_at desc').limit(5) do
-      column :title
-      column :description
-      column :image
-      column :image do |photo|
-        image_tag photo.image.thumb
-      end
-    end
+    # table_for Photo.order('created_at desc').limit(5) do
+    #   column :title
+    #   column :description
+    #   column :image
+    #   column :image do |photo|
+    #     image_tag photo.image.thumb
+    #   end
+    # end
     # Here is an example of a simple dashboard with columns and panels.
     #
     # columns do
