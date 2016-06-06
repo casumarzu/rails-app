@@ -57,3 +57,5 @@ gem 'devise'
 gem 'activeadmin', github: 'activeadmin'
 # heroku
 gem 'rails_12factor', group: :production
+# slim template
+gem 'slim-rails'
