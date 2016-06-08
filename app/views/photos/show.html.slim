@@ -1,13 +1,13 @@
 p#notice= notice
 p
-  strong Title:
+  strong #{t(:title)}:&nbsp
   = @photo.title
 p
-  strong Description:
+  strong #{t(:description)}:&nbsp
   = @photo.description
 p
-  strong Image:
+  strong #{t(:description)}:&nbsp
   = image_tag @photo.image
-= link_to 'Edit', edit_photo_path(@photo)
+= link_to t(:edit), edit_photo_path(@photo)
 | \
-= link_to 'Back', photos_path
+= link_to t(:back), photos_path
