@@ -16,6 +16,6 @@ table
         td= link_to t(:show), photo
         - if user_signed_in?
           td= link_to t(:edit), edit_photo_path(photo)
-          td= link_to t(:destroy), photo, method: :delete, data: {confirm: 'Are you sure?'}
+          td= link_to t(:destroy), photo, method: :delete, data: { confirm: 'Are you sure?' }
 br/
 = link_to t(:new_photo), new_photo_path
