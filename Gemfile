@@ -55,6 +55,8 @@ gem 'mini_magick'
 gem 'devise'
 # admin panel
 gem 'activeadmin', github: 'activeadmin'
+# gem 'active_admin_flat_skin'
+gem 'active_admin_theme'
 # heroku
 gem 'rails_12factor', group: :production
 # slim template

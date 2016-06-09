@@ -2,8 +2,7 @@ Rails.application.routes.draw do
   ActiveAdmin.routes(self)
   devise_for :admin_users, ActiveAdmin::Devise.config
   scope "(:locale)", locale: /ru|en/ do
-    resources :products
-    devise_for :users
+      devise_for :users
     get 'persons/profile'
     root to: redirect("/photos")
     get 'persons/profile', as: 'user_root'
