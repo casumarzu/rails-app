@@ -36,7 +36,7 @@ set :puma_init_active_record, false
 set :puma_preload_app, false
 set :nginx_use_ssl, false
 
-# SSHKit.config.command_map[:rake]  = "/usr/bin/env RAILS_ENV=#{fetch(:rails_env)} bundle exec rake"
+SSHKit.config.command_map[:rake]  = "/usr/bin/env RAILS_ENV=#{fetch(:rails_env)} bundle exec rake"
 
 namespace :deploy do
   desc 'Deploy app for first time'
