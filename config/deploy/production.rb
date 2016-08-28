@@ -17,6 +17,6 @@ set :bundle_flags, '--deployment'
 
 set :default_env, { path: "#{fetch(:bundle_binstubs)}:$PATH" }
 
-server '85.143.217.107', user: 'user', roles: %w{web app db}
+server '85.143.217.107', user: 'root', roles: %w{web app db}
 
 SSHKit.config.command_map[:rake]  = "/usr/bin/env RAILS_ENV=#{fetch(:rails_env)} bundle exec rake"
