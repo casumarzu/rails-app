@@ -32,7 +32,7 @@ GEM
       rails-dom-testing (~> 1.0, >= 1.0.5)
     actionpack (5.0.0.rc1)
       actionview (= 5.0.0.rc1)
-      activesupport (= 5.0.0.rc1)
+      activesupport (= 5.0.0.1)
       rack (~> 2.x)
       rack-test (~> 0.6.3)
       rails-dom-testing (~> 1.0, >= 1.0.5)
