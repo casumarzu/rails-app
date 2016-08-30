@@ -22,7 +22,7 @@ set :puma_user, fetch(:user)
 set :puma_rackup, -> { "#{app_dir}/current/config.ru"}
 set :puma_state, "#{shared_dir}/tmp/pids/puma.state"
 set :puma_pid, "#{shared_dir}/tmp/pids/puma.pid"
-set :puma_bind, "unix://#{shared_dir}/tmp/sockets/#{fetch(:application)}-puma.sock"
+set :puma_bind, "unix://#{shared_dir}/tmp/sockets/puma.sock"
 set :puma_default_control_app, "unix://#{shared_dir}/tmp/sockets/pumactl.sock"
 set :puma_conf, "#{shared_dir}/puma.rb"
 set :puma_access_log, "#{shared_dir}/log/puma_access.log"
