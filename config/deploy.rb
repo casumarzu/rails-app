@@ -18,7 +18,6 @@ set :pty, true
 # PUMA CONFIG
 app_dir = '/var/www/fatsquash.ru/rails-app'
 shared_dir = "#{app_dir}/shared"
-bind "unix://#{shared_dir}/sockets/puma.sock"
 set :puma_user, fetch(:user)
 set :puma_rackup, -> { "#{app_dir}/current/config.ru"}
 set :puma_state, "#{shared_dir}/tmp/pids/puma.state"
