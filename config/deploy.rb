@@ -33,5 +33,6 @@ task :deploy => :environment do
   deploy do
     invoke :'git:clone'
     invoke :'deploy:link_shared_paths'
+    invoke :'bundle:install'
   end
 end
